@@ -1,0 +1,15 @@
+/* chỉnh chiều cao top cho navbar Become a Web Developer*/
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+/* đối với các màn hình tầm trung trở lên
+thì nhóm input sẽ giảm nửa kích thước cứ vượt quá 786px thì news input
+sẽ được thiết lập chiều rộng 50%. */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
